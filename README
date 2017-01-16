@@ -1,0 +1,10 @@
+# Using an LSTM character-based model to generate jokes from a corpus scraped from reddit.
+## Note that due to the source of the jokes (the /r/jokes subreddit), which often has quite offensive jokes, many of the `jokes' that the model generates are quite offensive.
+
+A project inspired by (https://openai.com/requests-for-research/#funnybot)[the openAI requests for research], to find a large corpus of jokes and train an LSTM character-based method on it. As far as I could tell, there are no large collections of jokes available on the internet. Using the great databases at pushift.io, I downloaded a dump of all of the top-level posts on Reddit, and used bzgrep to extract the posts which were on (www.reddit.com/r/jokes) [the jokes subreddit], which are almost entirely jokes. I then ran a quick python script to fetch the text of the jokes, and put them into a text file. I did a minimal amount of data cleaning, removing only those posts which had been deleted. Taking the posts which are less than 80 characters long (as we assume that we don't have enough data for a deep learning system to learn how to generate jokes that are many lines long), we have around 100,000 jokes.
+
+I then trained an lstm character-based model on the corpus, adapting the (https://github.com/tflearn/tflearn/blob/master/examples/nlp/lstm_generator_cityname.py)[`city-generation' example] in the (TFlearn) [http://tflearn.org/] library. In the future I'm going to pivot to using keras for deep learning applications, but in the meantime I'm using TFlearn. 
+I then trained the model on an AWS p2.xlarge instance. I used the (https://github.com/ritchieng/tensorflow-aws-ami)[TensorFlow AWS] provided by Ritchie Ng, which was very helpful in spinning up the instance as quickly as possible. I trained the model for around 36 hours, which was the point at which I didn't want to spend any more money on the Amazon servers. To use the trained model yourself: 
+
+
+The network learns these and many of the 'jokes' are very offensive.
