@@ -13,8 +13,9 @@ I then trained the model on an AWS p2.xlarge instance. I used the [TensorFlow AW
 5. After some time, you should have a sample of the jokes.
 
 A few of the jokes that were created in the output that weren't in the input were (and are relatively non-offensive, compared to the majority of the output):
-What do you call a dog with a rubber toe? Roberto
-What is a Mexican's favorite number? Juan
+
+* What do you call a dog with a rubber toe? Roberto
+* What is a Mexican's favorite number? Juan
 
 These jokes are very closely related to jokes in the input. In particular, there are over 50 repeats of the `What do you call a [noun] with a rubber toe? Roberto' joke. The model has obviously learned that it can replace [noun] with any noun and it will make a valid joke, as it outputs many variations with [noun] taking on various different nouns, such as dog, mexican, man. All the words it substitutes in are valid nouns, and in general the model does use correct grammar at lower temperatures. In fact, it is very impressive that this character-based model is able to learn essentially correct grammar, even if it is nonsensical semantically.
 
