@@ -22,24 +22,24 @@ A random sample of the output at varying temperature (which corresponds to how r
 NB Some of these may be offensive!
 
 Temperature 1.2:
-*I aplaud Mrr joke Space I swallowed love.
-*Women that met.  on old one light Now there used to high if you're wo=kers
-*Damn girl, are you a window app; Because you can geld lose in about 6 inches.
-*What Joke Paydo el Mars Voming Gender Past? Aye faal's quein
-*Confucius say I'm really thinking of self-ve mother but Soleo parents.
+* I aplaud Mrr joke Space I swallowed love.
+* Women that met.  on old one light Now there used to high if you're wo=kers
+* Damn girl, are you a window app; Because you can geld lose in about 6 inches.
+* What Joke Paydo el Mars Voming Gender Past? Aye faal's quein
+* Confucius say I'm really thinking of self-ve mother but Soleo parents.
 
 Temperature 0.8:
-*What do you call a gay dinosaur? an African And Ellen Pao falls.
-*What do you laugh an Asian? A AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY!
-*How many tickles does it take to make an octopus laugh? Ten tickles *
-*What's another name for glasses? Cilling Dead tomorrow 
-*Where's the best cannibal to eat? The wheelchair..
-*was wondering why the guy who could hasly was in the toilet in the sushi.
+* What do you call a gay dinosaur? an African And Ellen Pao falls.
+* What do you laugh an Asian? A AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY!
+* How many tickles does it take to make an octopus laugh? Ten tickles * 
+* What's another name for glasses? Cilling Dead tomorrow 
+* Where's the best cannibal to eat? The wheelchair..
+* was wondering why the guy who could hasly was in the toilet in the sushi.
 
 Temperature 0.4:
-*What do you call a cannibal that lost his balls? A polar bear.
-*What do you call a black guy with a rubber toe? Fuck
-*What do you call a man with a rubber toe? Roberto *
-*So a blind man walks into a bar... and a table... and a chair. *
-*What do you call a dog with no legs? Ground beef
+* What do you call a cannibal that lost his balls? A polar bear.
+* What do you call a black guy with a rubber toe? Fuck
+* What do you call a man with a rubber toe? Roberto * 
+* So a blind man walks into a bar... and a table... and a chair. *
+* What do you call a dog with no legs? Ground beef
 
