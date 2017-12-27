@@ -43,8 +43,8 @@ Temperature 0.4:
 * So a blind man walks into a bar... and a table... and a chair. *
 * What do you call a dog with no legs? Ground beef
 
-##Two-Layer Experimentation
+## Two-Layer Experimentation
 Initially I moved to three layers from two as I thought the model was not able to reduce the training error far enough, and a more flexible model was needed. However, on shifting back to a two-layer architecture for a few hours of training, the model was able to achieve lower loss than the three-layer architecture for same amount of training time, presumably because the two-layer system was much quicker to train. This indicates my worries about underfitting with two layers were unfounded. Indeed, the system produced jokes that were exactly the same as input jokes for the two layer system after enough training.
 
-##Future
-More data would be very useful. If I could uncover another large (100,000+) database of jokes, that would be very useful.
+## Future
+More data would be very useful. If I could uncover another large (100,000+) database of jokes, that would be very useful. We could also use pre-trained word-vectors. 
